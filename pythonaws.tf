@@ -19,6 +19,7 @@ user_data = <<-EOF
                     #!/bin/bash
                     curl -L https://tljh.jupyter.org/bootstrap.py \
                     | sudo python3 - \
+#here in the line below we have to enter the name of the admin 
                     --admin name_here
                 EOF
 }
